@@ -78,3 +78,22 @@
 #         else:
 #             print("⬜", end="")
 #     print()
+
+
+
+#Hacer una transposicion de matrices, teniendo en cuenta la matriz previamente definida 
+
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+transpuesta = [[0]*3 for i in range(3)]
+
+for i in range(3):
+    for j in range(3):
+        transpuesta[j][i] = matriz[i][j]
+
+for fila in transpuesta:
+    print(fila)
