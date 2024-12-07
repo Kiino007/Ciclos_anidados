@@ -42,3 +42,39 @@
 #         if elemento % 2 == 0:
 #             contador_pares += 1
 # print(f"hay {contador_pares} numeros pares en la matriz")
+
+
+
+
+#Generacion de patrones visuales con ciclos
+
+#Triangulo de numeros
+
+# n = 10 #int(input("Indicame el numero de pisos que tendra el triangulo"))
+
+# for i in range(1, n + 1):
+#      for j in range(1, i + 1):
+#          print(j, end = " ")
+#      print()
+
+
+# #triangulo invertido
+# m = 10
+
+# for u in range(m, 0, - 1):
+#     for k in range(1, u + 1):
+#         print(k, end=" ")
+#     print()
+
+
+#tablero de ajedrez
+
+# n = 8
+
+# for i in range(n):
+#     for j in range(n):
+#         if (i + j) % 2 == 0:
+#             print("⬛", end="")
+#         else:
+#             print("⬜", end="")
+#     print()
